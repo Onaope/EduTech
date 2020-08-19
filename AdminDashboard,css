@@ -1,0 +1,42 @@
+.side-nav .logo-sn {
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+    }
+
+    .side-nav .logo-sn img {
+      height: 38px;
+    }
+.sidenav{
+   background-color: #153D5E;
+}
+
+    .side-nav .search-form input[type=text] {
+      margin-top: 0;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border-top: 1px solid rgba(255, 255, 255, 0.3);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    body {
+      background-color: #eee;
+    }
+
+  :root {
+  --active-color: rgba(0,0,0,0.65);
+}
+
+.card-signup {
+  border: 1px solid #dadce0;
+  border-radius: .5rem;
+}
+
+.card-signup .card-body {
+  padding: 48px 40px 36px;
+}
+
+.logo {
+  width: 75px;
+  height: auto;
+  margin-bottom: 1rem;
+}
