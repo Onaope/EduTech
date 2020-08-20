@@ -19,13 +19,13 @@
 })
     </script>
   </head>
-  <body class="fixed-sn light-blue-skin">
+ <body class="hidden-sn blue-skin">
 
     <!--Main Navigation-->
     <header>
 
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar double-nav my-1 py-1">
+        <nav class="navbar navbar-expand-lg navbar-light scrolling-navbar double-nav my-1 py-3">
 
             <!-- SideNav slide-out button -->
             <div class="float-left">
@@ -34,30 +34,31 @@
                 </a>
             </div>
 
-            <!-- Breadcrumb-->
-            <div class="breadcrumb-dn mr-auto">
-                <p>EDUTECH</p>
-            </div>
-
             <!-- Links -->
             <ul class="nav navbar-nav nav-flex-icons ml-auto">
-         <form class="form-inline">
-      <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-    </form>
-  </div>
-                <!--/.Search Form-->
-                <li class="nav-item">
+              <!--Search Form-->
+         <form class="form-inline mr-auto">
+          <div class="input-group">
+           <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+             <span class="input-group-text"><i class="fas fa-search text-grey" aria-hidden="true"></i></span>
+            </div>
+           </div>
+          </form>
+              <!--/.Search Form-->
+              
+                <li class="nav-item ">
                     <a class="nav-link">
                         <i class="fa fa-envelope"></i>
-                        
                     </a>
                 </li>
-                <li class="nav-item">
+              
+                <li class="nav-item  ml-auto">
                     <a class="nav-link">
                         <i class="fa fa-bell" aria-hidden="true"></i>
                     </a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown  ml-auto">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-user"></i>
@@ -69,13 +70,13 @@
                         <a class="dropdown-item" href="#">Guardian Account</a>
                     </div>
                 </li>
+             
             </ul>
-
         </nav>
         <!--/.Navbar-->
 
         <!-- Sidebar navigation -->
-        <div id="slide-out" class="side-nav bg-primary fixed">
+        <div id="slide-out" class="side-nav fixed" style="background-color: #153D5E;">
             <ul class="custom-scrollbar">
               <!-- company -->
               <li class="logo my-3 pt-2">EDUTECH
@@ -83,16 +84,12 @@
               <!--/ company -->
                 <!-- Logo -->
                 <li class="logo-sn row waves-effect">
-                    <div class="col-md text-left">
-                        <a href="#" class="pl-0">
-                            <img src="https://i.ibb.co/f8NYpM6/Ellipse-13-1.png" class="text-center">
-                        </a>
-                    </div>
-                  <div class="col-md text-center">
-                        <p href="#" class="pl-0">
-                            John Doe<br/>
+                    <div class="col-md">
+                            <img src="https://i.ibb.co/f8NYpM6/Ellipse-13-1.png" class="px-3 float-left">
+                        <p class="pl-5">
+                           John Doe<br/>
                           Administrator
-                        </p>
+                          </p>  
                     </div>
                 </li>
                 <!--/. Logo -->
@@ -106,9 +103,11 @@
                                 Overview<i class="fa fa-angle-down rotate-icon"></i></a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a href="#" class="waves-effect">For bloggers</a>
+                                    <li><a href="#" class="waves-effect">Students</a>
                                     </li>
-                                    <li><a href="#" class="waves-effect">For authors</a>
+                                    <li><a href="#" class="waves-effect">Guardians</a>
+                                    </li>
+                                   <li><a href="#" class="waves-effect">Teachers</a>
                                     </li>
                                 </ul>
                             </div>
@@ -145,44 +144,45 @@
     </header>
     <!--Main Navigation-->
 <!--Main layout-->
-  <
-  <div class="container pt-5 ">
+  
+  <div class="container py-3 my-1">
   <div class="row">
-    <div class="col-md-12 mx-auto my-4">
+    <div class="col-md-12 mx-auto my-5 py-5">
       <div class="card card-signup z-depth-0 card-body">
-        <div class="col-md-4">
-     
+        <div class="col-md-4 float-left">
           <h3 class="card-title">My Profile</h3>
           <img src="https://i.ibb.co/f8NYpM6/Ellipse-13-1.png" class="logo" />
         </div>
-        <div class="col-md-8">
-       
-          <form>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationDefault01">First name</label>
-      <input type="text" class="form-control" id="validationDefault01" placeholder="John" required>
-    </div>
-    <div class="col-md-6 mb-3">
-      <label for="validationDefault02">Last name</label>
-      <input type="text" class="form-control" id="validationDefault02" placeholder="Doe" required>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationDefault03">Email</label>
-      <input type="email" class="form-control" id="validationDefault03" placeholder="johndoe@email.com" required>
-    </div>
-    <div class="col-md-6 mb-3">
-      <label for="validationDefault04">Password</label>
-      <input type="text" class="form-control" id="validationDefault04" placeholder="********" required>
-   
-    </div>
-  </div>
-  <button class="btn btn-success btn-rounded text-left" type="submit">Save Profile</button>
-</form>
+        <form>
+         <div class="form-row">
+          <div class="col-md-6 mb-3">
+           <label for="validationDefault01">First name</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="John" required>
+          </div>
+          <div class="col-md-6 mb-3">
+           <label for="validationDefault02">Last name</label>
+            <input type="text" class="form-control" id="validationDefault02" placeholder="Doe" required>
+          </div>
+         </div>
+           <div class="form-row">
+           <div class="col-md-6 mb-3">
+           <label for="validationDefault03">Email</label>
+           <input type="email" class="form-control" id="validationDefault03" placeholder="johndoe@email.com" required>
+           </div>
+           <div class="col-md-6 mb-3">
+           <label for="validationDefault04">Password</label>
+           <input type="text" class="form-control" id="validationDefault04" placeholder="********" required>
+          </div>
+          </div>
+          <button class="btn btn-success btn-rounded text-left" type="submit">Save Profile</button>
+          </form>
+          </div>
+         </div>
         </div>
+       </div>
         
+          
+
         
          <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
