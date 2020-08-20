@@ -1,4 +1,4 @@
-.side-nav .logo-sn {
+ .side-nav .logo-sn {
       padding-bottom: 1rem;
       padding-top: 1rem;
     }
@@ -17,6 +17,9 @@
       border-top: 1px solid rgba(255, 255, 255, 0.3);
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     }
+.form-inline{
+  margin-right: auto !important;
+}
 
     body {
       background-color: #eee;
